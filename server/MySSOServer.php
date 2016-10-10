@@ -24,15 +24,15 @@ class MySSOServer extends SSO\Server
      * @var array
      */
     private static $users = array (
-        'jackie' => [
-            'fullname' => 'Jackie',
-            'email' => 'test@example.com',
-            'password' => '$2y$10$lVUeiphXLAm4pz6l7lF9i.6IelAqRxV4gCBu8GBGhCpaRb6o0qzUO' // jackie123
+        'marco' => [
+            'fullname' => 'Marc-Olivier Castagnetti',
+            'email' => 'marco@example.com',
+            'password' => '$2y$10$RUg/MMvVvu8rkbbJZ47q7u1O6Z588p6/55cCVsvJqDrMjKeBKpcYu' // toto
         ],
-        'john' => [
-            'fullname' => 'John',
-            'email' => 'test@example.com',
-            'password' => '$2y$10$RU85KDMhbh8pDhpvzL6C5.kD3qWpzXARZBzJ5oJ2mFoW7Ren.apC2' // john123
+        'clement' => [
+            'fullname' => 'Clément Barbaza',
+            'email' => 'clement@example.com',
+            'password' => '$2y$10$RUg/MMvVvu8rkbbJZ47q7u1O6Z588p6/55cCVsvJqDrMjKeBKpcYu' // toto
         ],
     );
 
