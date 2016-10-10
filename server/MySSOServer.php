@@ -15,9 +15,8 @@ class MySSOServer extends SSO\Server
      * @var array
      */
     private static $brokers = [
-        'Alice' => ['secret'=>'8iwzik1bwd'],
-        'Greg' => ['secret'=>'7pypoox2pc'],
-        'Julias' => ['secret'=>'ceda63kmhp']
+        'Site1' => ['secret'=>'8iwzik1bwd'],
+        'Site2' => ['secret'=>'7pypoox2pc']
     ];
 
     /**
@@ -26,13 +25,13 @@ class MySSOServer extends SSO\Server
      */
     private static $users = array (
         'jackie' => [
-            'fullname' => 'Jackie Black',
-            'email' => 'jackie.black@example.com',
+            'fullname' => 'Jackie',
+            'email' => 'test@example.com',
             'password' => '$2y$10$lVUeiphXLAm4pz6l7lF9i.6IelAqRxV4gCBu8GBGhCpaRb6o0qzUO' // jackie123
         ],
         'john' => [
-            'fullname' => 'John Doe',
-            'email' => 'john.doe@example.com',
+            'fullname' => 'John',
+            'email' => 'test@example.com',
             'password' => '$2y$10$RU85KDMhbh8pDhpvzL6C5.kD3qWpzXARZBzJ5oJ2mFoW7Ren.apC2' // john123
         ],
     );

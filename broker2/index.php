@@ -9,7 +9,7 @@ if (isset($_GET['sso_error'])) {
     exit;
 }
 
-$broker = new Jasny\SSO\Broker('https://server.tp-sso.fr/index.php', 'Greg', '7pypoox2pc');
+$broker = new Jasny\SSO\Broker('http://server.tp-sso.fr/index.php', 'Site2', '7pypoox2pc');
 $broker->attach(true);
 
 try {

@@ -2,7 +2,7 @@
 use Jasny\SSO\NotAttachedException;
 require_once __DIR__ . '/../../vendor/autoload.php';
 
-$broker = new Jasny\SSO\Broker('https://server.tp-sso.fr/index.php', 'Alice', '8iwzik1bwd');
+$broker = new Jasny\SSO\Broker('http://server.tp-sso.fr/index.php', 'Site1', '8iwzik1bwd');
 $broker->attach(true);
 
 try {
